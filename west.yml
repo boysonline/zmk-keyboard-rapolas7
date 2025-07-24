@@ -1,9 +1,0 @@
-manifest:
-  remotes:
-    - name: boysonline
-      url-base: https://github.com/boysonline
-
-  projects:
-    - name: zmk-keyboard-rapolas7
-      remote: boysonline
-      import: west.yml
