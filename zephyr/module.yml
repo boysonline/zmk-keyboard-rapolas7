@@ -1,6 +1,3 @@
-# Delete all unused properties.
-
-# Give your module a name
 name: zmk-keyboard-rapolas7
 version: 0.1.0
 license: MIT
@@ -8,10 +5,9 @@ description: ""
 build:
   depends:
     - name: zmkfirmware
-  
   cmake: .
   kconfig: .
   settings:
     board_root: .
-    dts_root: . 
+    dts_root: .
 
