@@ -2,18 +2,16 @@
 
 # Give your module a name
 name: zmk-keyboard-rapolas7
+version: 0.1.0
+license: MIT
+description: ""
 build:
-  # List your dependencies
   depends:
-    - zmk-example-dependency
-  # Folder containing a "CMakeLists.txt" (. = root)
+    - name: zmkfirmware
+  
   cmake: .
-  # Kconfig filepath
-  kconfig: Kconfig
+  kconfig: .
   settings:
-    # Folder containing a "boards" folder (. = root)
     board_root: .
-    # Folder containing a "dts" folder (. = root)
-    dts_root: .
-    # Folder containing a "snippets" folder (. = root)
-    snippet_root:  .
+    dts_root: . 
+
