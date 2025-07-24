@@ -1,13 +1,15 @@
-name: "zmk-keyboard-rapolas7"
+name: zmk-keyboard-rapolas7
 version: "0.1.0"
-license: "MIT"
-description: ""
+license: MIT
+description: "ZMK keyboard module for Rapolas7"
+
 build:
   depends:
-    - "zmk"
-  cmake: "."
-  kconfig: "."
+    - zmk
+  cmake: .
+  kconfig: Kconfig
   settings:
-    board_root: "."
-    dts_root: "."
+    board_root: boards
+    dts_root: dts
+    snippet_root: snippets
 
