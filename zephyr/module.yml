@@ -1,12 +1,10 @@
 name: "zmk-keyboard-rapolas7"
 
 build:
-  depends:
-    - zmk
   cmake: .
-  kconfig: Kconfig
+  kconfig: .
   settings:
-    board_root: boards
-    dts_root: dts
-    snippet_root: snippets
+    board_root: .
+    dts_root: .
+    snippet_root: .
 
