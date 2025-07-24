@@ -1,7 +1,4 @@
-name: zmk-keyboard-rapolas7
-version: "0.1.0"
-license: MIT
-description: "ZMK keyboard module for Rapolas7"
+name: "zmk-keyboard-rapolas7"
 
 build:
   depends:
