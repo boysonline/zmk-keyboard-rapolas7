@@ -1,4 +1,4 @@
 name: "zmk-keyboard-rapolas7"
 build:
   settings:
-    board_root: "../"
+    board_root: "${{ github.workspace }}/config/modules/zmk-keyboard-rapolas7"
